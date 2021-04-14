@@ -57,6 +57,7 @@ keytool -list -v -keystore client.ts.p12 -storepass client-ts-password
 ```
 
 ## Overview of generating SSL files:
+![kafka_ssl](https://github.com/LinhVu1027/kafka-ssl-server-authentication/blob/main/img/kafka_ssl.png?raw=true)
 
 ## Configure SSL on Kafka Broker (docker-compose.yml)
 ```yml
@@ -116,6 +117,7 @@ spring:
 ```
 
 ## Additional Information: SSL/TLS
+![ssl_tls](https://github.com/LinhVu1027/kafka-ssl-server-authentication/blob/main/img/ssl-tls.png?raw=true)
 
 ## Reference
 - `1.` **Kafka: The Definitive Guide v2 - Chapter 6: Securing Kafka** freely provided by [**Confluent**](https://www.confluent.io/resources/kafka-the-definitive-guide-v2/).
