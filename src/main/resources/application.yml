@@ -1,0 +1,10 @@
+spring:
+  kafka:
+    bootstrapServers: localhost:9092
+    security:
+      protocol: SSL
+    ssl:
+#      trustStoreLocation: classpath:client.ts.p12 if put this file in ./src/main/resources/client.ts.p12
+      trustStoreLocation: file://tmp/kafka-ssl-demo/client.ts.p12
+      trustStorePassword: client-ts-password
+      trustStoreType: PKCS12
